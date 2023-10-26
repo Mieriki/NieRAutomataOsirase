@@ -1,0 +1,190 @@
+body {
+	background-image:url(../img/log.png);
+	background-repeat: no-repeat;
+	background-color:transparent; /*指定背景颜色应该是透明的。*/
+	background-position: center,center;  /* 背景图垂直、水平均居中 */
+	background-size: 100%,100%;
+	background-attachment: fixed; 
+	margin: 0px;
+	padding: 0px
+}
+
+#kabe {
+	width: 100%;
+	height: 18080px;
+}
+
+#atama {
+	height: 530px;
+	/* background-color: black; */
+	margin: 0;
+	padding: 0;
+}
+
+#karada {
+	width: 100%;
+	height: 17500px;
+	margin: 0;
+	padding: 0;
+	background-color:black;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+#nabigeisyon {
+	width: 100%;
+	height: 224px;
+	/* background-color: azure; */
+	background-repeat: no-repeat;
+	background: url(../img/daobei_shouye.png);
+	/* background-position: center,center; */  /* 背景图垂直、水平均居中 */
+	background-size: 100%,100%;
+	margin: 0 auto 0;
+}
+
+#nabigeisyon ul {
+	margin: 0 auto 0;
+}
+
+#naka {
+	width: 90%;	
+	/* padding-bottom: 50%; */
+	margin: 0 auto;
+	/* background-color: brown; */
+}
+
+#migi {
+	width: 20%;
+	/* padding-bottom: 50%; */
+	color: aliceblue;
+	background-color: black;
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+	float: left;
+}
+
+#hidari {
+	width: 75%;
+	/* padding-bottom: 50%; */
+	/* background-color: maroon; */
+	float: right;
+}
+
+#sippo {
+	background-color: black;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+#sippo span {
+	width: 100%;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding-left: 460px;
+}
+
+.daohang {
+	width: 150px;
+	height: 152px;
+}
+
+#daohanglan li {
+    float: left;
+    list-style: none;
+    margin: 50px 22px 0;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+	list-style: none;
+	margin: 0 auto 0;
+	padding:0;
+	border: 0;
+}
+
+.daibiao {
+	width: 100%;
+}
+
+.daibiao h2 {
+	height: 40px;
+	background-color: black;
+	padding-left: 5%;
+	padding-right: 5%;
+	line-height:40px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.daibiao a {
+	line-height:40px;
+	color: white;
+	text-decoration: none;
+}
+
+.zhengwen {
+	width: 100%;
+	color: white;
+	padding-right: 4%;
+}
+
+.zhengwen div {
+	width: 100%;
+	padding-left: 5%;
+}
+
+.zhengwen h2 {
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	padding-left: 2%;
+	padding-right: 0;
+	margin: 20px 3% 10px;
+	line-height:40px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.zhengwen div h3 {
+	border-bottom: 2px solid /* dashed */ grey;
+}
+.zhengwen div h4 {
+}
+.zhengwen div h5 {
+	line-height: 10px;
+}
+
+.zhengwen div p {
+	line-height:25px;
+}
+
+.show {
+	width: 630px;
+	height: 355px;
+}
+
+#zuidi {
+	padding: 0;
+	width: 50%;
+	float: left;
+}
+
+#tuijian {
+	padding: 0;
+	width: 50%;
+	float: right;
+}
+
+#sysneed {
+	width: 100%;
+	height: 550px;
+}
+.framebordercss {
+	border: 0;
+}

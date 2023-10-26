@@ -1,0 +1,202 @@
+body {
+	background-image:url(../img/log.png);
+	background-repeat: no-repeat;
+	background-color:transparent; /*指定背景颜色应该是透明的。*/
+	background-position: center,center;  /* 背景图垂直、水平均居中 */
+	background-size: 100%,100%;
+	background-attachment: fixed; 
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#kabe {
+	width: 100%;
+	height: 1080px;
+}
+
+#atama {
+	height: 530px;
+	/* background-color: white; */
+}
+
+#karada {
+	width: 100%;
+	height: 980px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color:#464646;
+	/* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)); */
+}
+
+#naka {
+	width: 100%;
+	height: 980px;
+	position: absolute;
+	top: 0;
+	background: linear-gradient(90deg, #000000 2%,rgba(255, 255, 255, 0) 20%,rgba(255, 255, 255, 0) 80%,#000000 98%);
+}
+
+.heitiaoUp {
+	width: 100%;
+	height: 10px;
+	float: left;
+	position: absolute;
+	top: 0px;
+	background: linear-gradient(180deg, #000000 0%,rgba(255, 255, 255, 0) 100%);
+}
+
+.heitiaodonw {
+	width: 100%;
+	height: 10px;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	background: linear-gradient(0deg, #000000 0%,rgba(255, 255, 255, 0) 100%);
+}
+
+#nabigeisyon {
+	width: 100%;
+	height: 224px;
+	/* background-color: azure; */
+	background-repeat: no-repeat;
+	background: url(../img/daobei_shijieguan.png);
+	/* background-position: center,center; */  /* 背景图垂直、水平均居中 */
+	background-size: 100%,100%;
+}
+
+#daohanglan li {
+    float: left;
+    list-style: none;
+    margin: 50px 22px 0;
+}
+
+.clearfix {
+	list-style: none;
+	margin: 0 auto 0;
+	padding:0;
+	border: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.daohang {
+	width: 150px;
+	height: 152px;
+}
+
+#sippo {
+	background-color: black;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+#sippo span {
+	width: 100%;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding-left: 750px;
+}
+
+.show {
+	width: 630px;
+	height: 355px;
+}
+
+#jinbutu_xu_box {
+	width: 1100px;
+	height: 780px;
+	position: absolute;
+	float: right;
+	top: 100px;
+	right: 0;
+	
+	/* background-color: aliceblue; */
+}
+
+
+#jinbutu_xu {
+	width: 1100px;
+	height: 780px;
+	position: absolute;
+	float: left;
+	right: 0;
+	
+}
+
+#jinbutu_box {
+	width: 600px;
+	height: 730px;
+	position: absolute;
+	float: left;
+	top: 100px;
+	left: 50px;
+/* 	background-color: aliceblue; */
+}
+
+#jinbutu {
+	width: 600px;
+	height: 730px;
+	position: absolute;
+	float: left;
+	right: 0;
+}
+
+#jieshao {
+	width: 600px;
+	height: 680px;
+	padding: 0;
+	position: absolute;
+	float: left;
+	color: white;
+	left: 700px;
+	top: 180px;
+	font-family: "华文楷体";
+	/* background-color: black; */
+}
+
+#jieshao h2 {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 50px;
+	margin: 0;
+} 
+
+#jieshao h4 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	border-bottom: 2px solid /* dashed */ grey;
+} 
+
+#jieshao h3 {
+	width: 100%;
+	font-size: 40px;
+	height: 30px;
+	line-height: 30px;
+} 
+
+#jieshao p {
+	width: 100%;
+	line-height: 30px;
+	font-size: 23px;
+} 
+
+#jieshao h5 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+	margin: 0;
+} 
